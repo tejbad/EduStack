@@ -12,6 +12,8 @@ urlpatterns = [
     path('accounts/',include('accounts.urls')),
     path('post/',include('post.urls')),
     path('papers/',include('papers.urls')),
+    path('programs/',include('programs.urls')),
+    # url(r'^tinymce/', include('tinymce.urls')), # tiny
 
 
     # path('seller/',include('seller.urls')),

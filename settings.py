@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'taggit',
     'vote',
     'papers.apps.PapersConfig', # new
+    'ckeditor',
+    'programs.apps.ProgramsConfig', # new
+    # 'tinymce',
 
 ]
 
